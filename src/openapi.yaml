@@ -1,0 +1,20 @@
+openapi: "3.0.0"
+info:
+  title: Resolver Failure
+  version: 2.0.0
+paths:
+  /v1.0/endpoint:
+    get:
+      description: Resolver Failure
+      parameters:
+        - $ref: ./param.yaml
+      responses:
+        '200':
+          content:
+            application/json:
+              examples:
+                EXAMPLE1: 
+                  value: "pewpew"
+
+          description: Break UI xD
+
